@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examle.yogeshkumar.phonecalls_demo.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/phoneid"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/callid"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="140dp"
+        android:text="Call"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneid"
+        tools:layout_constraintLeft_creator="1" />
+
+
+</android.support.constraint.ConstraintLayout>
